@@ -17,5 +17,8 @@
 
   "bonus_constanta": 10,
   "bonus_tulcea": 20,
-  "curs_ron_eur": 5.09
+  "curs_ron_eur": 5.09,
+
+  "_link_brosura": "Pagina „Planificator de vacanță” din contul tău Claude: butonul 📖 Broșură de la fiecare ofertă o deschide cu biletul completat.",
+  "link_brosura": "https://claude.ai/artifact/DADn8YEN1HxEpdoqd7tUDr"
 }

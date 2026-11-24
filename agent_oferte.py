@@ -107,6 +107,7 @@ CONFIG_IMPLICIT = {
         "email_smtp_port": 465,
     },
     "link_raport": "",                 # sau RAPORT_URL (pagina GitHub Pages cu toate ofertele)
+    "link_brosura": "",                # pagina „Planificator de vacanță” (broșuri scrise de Claude)
 }
 
 # --------------------------------------------------------------------------------------
@@ -1016,6 +1017,22 @@ def nume_plecari(o: dict) -> str:
     return nume if o["plecare_sigura"] else f"{nume} (probabil)"
 
 
+def link_brosura(o: dict, cfg: dict) -> str:
+    """Link spre planificator, cu biletul completat: #oferta--oras--tara--4n--20270120--20270124--buh--fco"""
+    baza = cfg.get("link_brosura") or ""
+    if not baza or o["destinatie"] == "Diverse destinații":
+        return ""
+    s = lambda t: re.sub(r"[^a-z0-9]+", "-", norm(t)).strip("-") or "x"
+    oras, _, tara = o["destinatie"].partition(",")
+    iata = re.search(r"/flight-search/[A-Z]{3}-([A-Z]{3})/", o.get("url", ""))
+    parti = [s(oras), s(tara), f"{o.get('nopti') or 'x'}n",
+             (o.get("data_plecare") or "x").replace("-", ""),
+             (o.get("data_intoarcere") or "x").replace("-", ""),
+             (o["plecari"][0] if o.get("plecari") else "BUH").lower(),
+             iata.group(1).lower() if iata else "x"]
+    return baza.split("#")[0] + "#oferta--" + "--".join(parti)
+
+
 def etichete_categorii(o: dict, cfg: dict) -> str:
     return " · ".join(NUME_CATEGORIE[c] for c in categorii_oferta(o, cfg) if c != "super")
 
@@ -1038,13 +1055,16 @@ def text_notificare(o: dict, cfg: dict) -> tuple[str, str]:
     sursa = o["sursa"] + (f" (și pe {', '.join(o['si_pe'])})" if o.get("si_pe") else "")
     linii.append(f"📰 {sursa}")
     linii.append(o["url"])
+    if link_brosura(o, cfg):
+        linii.append(f"\n📖 Broșură de călătorie: {link_brosura(o, cfg)}")
     if cfg.get("link_raport"):
         linii.append(f"\n🗂️ Toate ofertele: {cfg['link_raport']}")
     return titlu, "\n".join(linii)
 
 
 def trimite_ntfy(cfg: dict, titlu: str, mesaj: str, prioritate: int = 3,
-                 etichete: list[str] | None = None, link: str | None = None) -> bool:
+                 etichete: list[str] | None = None, link: str | None = None,
+                 brosura: str | None = None) -> bool:
     n = cfg["notificari"]
     if not n.get("ntfy_topic"):
         return False
@@ -1054,6 +1074,8 @@ def trimite_ntfy(cfg: dict, titlu: str, mesaj: str, prioritate: int = 3,
     if link:
         corp["click"] = link
         actiuni.append({"action": "view", "label": "Vezi oferta", "url": link})
+    if brosura:
+        actiuni.append({"action": "view", "label": "Broșură", "url": brosura})
     if cfg.get("link_raport"):
         actiuni.append({"action": "view", "label": "Toate ofertele", "url": cfg["link_raport"]})
     if actiuni:
@@ -1157,7 +1179,10 @@ def email_oferte(cfg: dict, oferte: list[dict], introducere: str = "") -> tuple[
             f'<div style="font-size:13px;color:#5d6672">{e(etichete_categorii(o, cfg))}</div>'
             f'<div style="font-size:13px;color:#5d6672">{e(o["sursa"])}</div>'
             f'<a href="{e(o["url"])}" style="display:inline-block;margin-top:8px;padding:8px 14px;'
-            f'background:#0b6bcb;color:#fff;border-radius:8px;text-decoration:none">Vezi oferta</a></div>')
+            f'background:#0b6bcb;color:#fff;border-radius:8px;text-decoration:none">Vezi oferta</a>'
+            + (f' <a href="{e(link_brosura(o, cfg))}" style="display:inline-block;margin-top:8px;padding:8px 14px;'
+               f'border:1px solid #0b6bcb;color:#0b6bcb;border-radius:8px;text-decoration:none">📖 Broșură</a>'
+               if link_brosura(o, cfg) else "") + '</div>')
     raport = cfg.get("link_raport")
     text = (introducere + "\n\n" if introducere else "") + "\n\n————\n\n".join(texte)
     if raport:
@@ -1171,8 +1196,9 @@ def email_oferte(cfg: dict, oferte: list[dict], introducere: str = "") -> tuple[
 
 
 def notifica(cfg: dict, titlu: str, mesaj: str, prioritate: int = 3,
-             etichete: list[str] | None = None, link: str | None = None) -> bool:
-    ok1 = trimite_ntfy(cfg, titlu, mesaj, prioritate, etichete, link)
+             etichete: list[str] | None = None, link: str | None = None,
+             brosura: str | None = None) -> bool:
+    ok1 = trimite_ntfy(cfg, titlu, mesaj, prioritate, etichete, link, brosura)
     ok2 = trimite_telegram(cfg, titlu, mesaj, silentios=prioritate <= 2)
     return ok1 or ok2
 
@@ -1215,7 +1241,7 @@ def scrie_raport(stare: dict, cfg: dict) -> None:
             "l": luna_oferta(o), "pl": o.get("plecari", []), "dep": nume_plecari(o),
             "tip": descriere_tip(o), "per": o.get("perioada", ""),
             "co": ", ".join(o.get("companii", [])), "src": sursa, "ts": ts,
-            "r": bool(o.get("radar")),
+            "r": bool(o.get("radar")), "h": link_brosura(o, cfg),
         })
     luni = sorted({x["l"] for x in date_json if x["l"]})
     optiuni_luni = "".join(
@@ -1247,8 +1273,10 @@ padding:7px 12px;cursor:pointer;font:inherit;font-size:14px;white-space:nowrap}}
 .chip[aria-pressed="true"] b{{color:var(--acc)}}
 .lista{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}}
 .card{{display:flex;flex-direction:column;gap:3px;background:var(--card);border:1px solid var(--lin);
-border-radius:12px;padding:14px;color:inherit;text-decoration:none;min-width:0}}
+border-radius:12px;padding:14px;color:inherit;min-width:0}}
 .card:hover{{border-color:var(--acc)}}
+.card a{{text-decoration:none}}.card a.dest{{color:inherit}}.card a.dest:hover{{color:var(--acc)}}
+.linkuri{{display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end}}
 .sus{{display:flex;justify-content:space-between;align-items:center;gap:8px}}
 .pret{{font-weight:700;font-size:22px}}.pret small{{font-size:13px;font-weight:400;color:var(--mut)}}
 .scor{{min-width:38px;height:30px;padding:0 8px;border-radius:8px;display:grid;place-items:center;font-weight:700;
@@ -1258,7 +1286,7 @@ background:var(--tag);font-size:14px}}
 .titlu{{font-size:14px;overflow-wrap:anywhere}}.mut{{color:var(--mut);font-size:13px;overflow-wrap:anywhere}}
 .tags{{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}}
 .tags span{{background:var(--tag);border-radius:6px;padding:2px 7px;font-size:12px;color:var(--mut)}}
-.jos{{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:6px}}
+.jos{{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:6px;flex-wrap:wrap}}
 .go{{color:var(--acc);font-weight:600;font-size:14px;white-space:nowrap}}
 .gol{{color:var(--mut);padding:24px 0}}
 #mai{{display:block;margin:16px auto 0;border:1px solid var(--lin);background:var(--card);color:var(--txt);
@@ -1297,15 +1325,18 @@ if(st.luna!=='toate'&&o.l!==st.luna)return false;
 if(st.q&&!norm(o.d+' '+o.t).includes(st.q))return false;
 return faraCat||st.cat==='toate'||o.c.includes(st.cat);}}
 function card(o){{
-const a=el('a','card'+(o.s>=SUPER?' super':o.s>=60?' bun':''));a.href=o.u;a.target='_blank';a.rel='noopener';
+const a=el('div','card'+(o.s>=SUPER?' super':o.s>=60?' bun':''));
+const lnk=(cls,t,u)=>{{const x=el('a',cls,t);x.href=u;x.target='_blank';x.rel='noopener';return x;}};
 const sus=el('div','sus');const p=el('span','pret',o.pa+' ');p.appendChild(el('small',null,'/ pers'));
-sus.append(p,el('span','scor',String(o.s)));sus.lastChild.title='Scor '+o.s+'/100';a.append(sus,el('div','dest',o.d));
+sus.append(p,el('span','scor',String(o.s)));sus.lastChild.title='Scor '+o.s+'/100';a.append(sus,lnk('dest',o.d,o.u));
 if(!o.r)a.append(el('div','titlu',o.t));
 a.append(el('div','mut',o.tip));
 a.append(el('div','mut','din '+o.dep+(o.co?' · '+o.co:'')));
 if(o.per)a.append(el('div','mut','📅 '+o.per));
 const tg=el('div','tags');o.c.filter(c=>c!=='super').forEach(c=>tg.append(el('span',null,NUME[c]||c)));a.append(tg);
-const jos=el('div','jos');jos.append(el('span','mut',o.src+(o.ts?' · '+cand(o.ts):'')),el('span','go','Vezi oferta ↗'));
+const jos=el('div','jos');const lk=el('span','linkuri');
+if(o.h)lk.append(lnk('go','📖 Broșură',o.h));lk.append(lnk('go','Vezi oferta ↗',o.u));
+jos.append(el('span','mut',o.src+(o.ts?' · '+cand(o.ts):'')),lk);
 a.append(jos);return a;}}
 function render(){{
 const baza=D.filter(o=>trece(o,true));
@@ -1444,7 +1475,8 @@ def ruleaza(cfg: dict, simulare: bool = False) -> list[dict]:
             t, m = text_notificare(o, cfg)
             sup = o["scor"] >= cfg["scor_super_oferta"]
             if notifica(cfg, t, m, prioritate=4 if sup else 3,
-                        etichete=["fire"] if sup else ["airplane"], link=o["url"]):
+                        etichete=["fire"] if sup else ["airplane"], link=o["url"],
+                        brosura=link_brosura(o, cfg) or None):
                 o["notificat"] = True
                 trimise += 1
         rest = eligibile[cfg["max_notificari_pe_rulare"]:]
