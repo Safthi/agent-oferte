@@ -16,6 +16,7 @@ rulează gratuit pe GitHub, iar tu primești notificări în browser sau pe emai
 | [citybreak.club](https://www.citybreak.club) | city break-uri cu zbor direct + cazare |
 | [cestee.ro](https://www.cestee.ro/oferte) | reduceri ale companiilor aeriene (în lei) |
 | [fly4free.com](https://www.fly4free.com) | oferte europene, doar cele din București |
+| [Aventurescu Radar](https://aventurescu.ro/zboruri-ieftine/) | sute de zboruri ieftine din București și Constanța, cu date exacte, companie și zbor direct/escală |
 
 ## Ce face, pas cu pas
 
@@ -30,7 +31,18 @@ rulează gratuit pe GitHub, iar tu primești notificări în browser sau pe emai
 4. Elimină dublurile: aceeași ofertă publicată pe două site-uri vine o singură dată.
 5. Trimite notificarea: 🔥 **SUPER OFERTĂ** (scor ≥ 80) sau 👍 ofertă bună.
    Între 23:00 și 07:00 vin doar super-ofertele.
-6. Actualizează pagina `index.html` cu toate ofertele din ultimele 14 zile, cea mai bună sus.
+   Zborurile din Radar (sunt sute) te anunță doar dacă au scor ≥ 80 **și** destinația e nouă
+   sau prețul a scăzut cu cel puțin 5% față de ultimele 30 de zile.
+6. Actualizează pagina `index.html` cu toate ofertele din ultimele 14 zile, **pe categorii**:
+
+   🔥 Super oferte · 💸 Sub 50€ · 💶 Sub 100€ · 🇪🇺 Europa · 🌍 Destinații îndepărtate
+   (🕌 Asia și Orientul Mijlociu · 🐪 Africa · 🗽 America de Nord · 🌴 America de Sud și Caraibe) ·
+   🏖️ Plajă și soare · 🏙️ City break și weekend · 🏨 Zbor + cazare · 🍹 All inclusive ·
+   🎄 Sărbători (Crăciun, Revelion, Paște, 1 Mai, Rusalii, 1 Decembrie) · ✈️ Zboruri directe
+
+   Pe pagină alegi și orașul de plecare, luna, ordinea (cele mai bune / ieftine / noi) și poți
+   căuta o destinație. Fiecare categorie are link propriu, de pus la favorite, ex.
+   `https://<utilizator>.github.io/agent-oferte/#sub100` sau `#departe`.
 
 ---
 
@@ -128,6 +140,8 @@ python agent_oferte.py --reset      # șterge istoricul
 | `pret_maxim_eur` | ex. `300`: ignoră ofertele mai scumpe |
 | `scor_minim_notificare` | sub acest scor nu primești notificare (implicit 35) |
 | `scor_super_oferta` | de la acest scor notificarea e „SUPER” (implicit 80) |
+| `scor_minim_radar` | scorul minim pentru notificările din Aventurescu Radar (implicit 80) |
+| `categorii_notificare` | notificări doar din anumite categorii, ex. `["sub100", "departe"]`; gol = toate. Chei: `super`, `sub50`, `sub100`, `europa`, `departe`, `asia`, `africa`, `america_n`, `america_s`, `plaja`, `citybreak`, `pachet`, `allinc`, `sarbatori`, `direct` |
 | `destinatii_favorite` | ex. `["grecia", "bali"]`: +10 la scor |
 | `destinatii_excluse` | ex. `["londra"]`: nu mai apar |
 | `ore_liniste` | `[23, 7]`: noaptea doar super-oferte; `[]` dezactivează |
