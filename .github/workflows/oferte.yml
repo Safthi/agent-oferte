@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "agent-oferte"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stare.json index.html
+          for f in stare.json index.html; do if [ -f "$f" ]; then git add "$f"; fi; done
           if ! git diff --cached --quiet; then
             git commit -m "Actualizare oferte"
             git pull --rebase --autostash

@@ -934,10 +934,14 @@ def ruleaza(cfg: dict, simulare: bool = False) -> list[dict]:
             print("\n" + "=" * 70 + f"\n{t}\n{m}")
         return noi
 
-    trimise = 0
     if not are_canal(cfg):
-        log("Atenție: niciun canal de notificare configurat (NTFY_TOPIC, TELEGRAM_* sau EMAIL_*).")
-    elif prima_rulare:
+        log("Atenție: niciun canal de notificare configurat (NTFY_TOPIC, TELEGRAM_* sau EMAIL_*). "
+            "Nu salvez istoricul, ca prima rulare cu notificări să-ți trimită topul ofertelor.")
+        scrie_raport(stare, cfg)
+        return noi
+
+    trimise = 0
+    if prima_rulare:
         top = [o for o in noi if o["scor"] >= cfg["scor_minim_notificare"]][:5]
         corp = "\n\n".join(f"{i}. {o['pret_afisat']} · {o['destinatie']} ({descriere_tip(o)}), "
                            f"scor {o['scor']}\n{o['url']}" for i, o in enumerate(top, 1))
