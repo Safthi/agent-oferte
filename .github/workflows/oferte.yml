@@ -1,0 +1,46 @@
+name: Agent oferte calatorii
+
+on:
+  schedule:
+    # La fiecare 15 minute. Dacă repo-ul e PRIVAT, schimbă în "*/30 * * * *"
+    # ca să rămâi în cele 2000 de minute gratuite pe lună.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent-oferte
+  cancel-in-progress: false
+
+jobs:
+  verifica-oferte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Caută oferte noi și trimite notificări
+        env:
+          # Completează doar ce folosești (Settings → Secrets and variables → Actions)
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          EMAIL_UTILIZATOR: ${{ secrets.EMAIL_UTILIZATOR }}
+          EMAIL_PAROLA: ${{ secrets.EMAIL_PAROLA }}
+          EMAIL_CATRE: ${{ secrets.EMAIL_CATRE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Pagina cu toate ofertele (merge după ce activezi Settings → Pages)
+          RAPORT_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python3 agent_oferte.py
+
+      - name: Salvează istoricul (ca să nu primești aceeași ofertă de două ori)
+        run: |
+          git config user.name "agent-oferte"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stare.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizare oferte"
+            git pull --rebase --autostash
+            git push
+          fi

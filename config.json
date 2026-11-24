@@ -1,0 +1,21 @@
+{
+  "_ajutor": "Setările de aici le înlocuiesc pe cele implicite din agent_oferte.py. Cheile care încep cu _ sunt ignorate. NU pune aici tokenuri dacă urci proiectul pe GitHub - folosește Secrets.",
+
+  "plecari_acceptate": ["BUH", "CND", "TCE"],
+  "_plecari": "BUH = București (Otopeni/Băneasa), CND = Constanța, TCE = Tulcea. Mai poți adăuga KIV (Chișinău), VAR (Varna), IAS (Iași).",
+
+  "accepta_plecare_neprecizata": true,
+  "pret_maxim_eur": null,
+  "scor_minim_notificare": 35,
+  "scor_super_oferta": 80,
+  "max_notificari_pe_rulare": 8,
+  "ore_liniste": [23, 7],
+
+  "destinatii_favorite": [],
+  "destinatii_excluse": [],
+  "_destinatii": "Exemplu: \"destinatii_favorite\": [\"grecia\", \"bali\", \"egipt\"] primesc +10 la scor; \"destinatii_excluse\": [\"londra\"] nu mai apar deloc.",
+
+  "bonus_constanta": 10,
+  "bonus_tulcea": 20,
+  "curs_ron_eur": 5.09
+}
