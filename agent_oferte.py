@@ -864,6 +864,11 @@ document.querySelectorAll('.filtre button').forEach(x=>x.classList.toggle('activ
 const f=b.dataset.f;document.querySelectorAll('.card').forEach(c=>{{
 c.style.display=(f==='toate'||c.dataset.plecari.includes(f)||c.dataset.tip===f)?'':'none';}});}});
 </script></body></html>"""
+    # rescrie pagina doar dacă s-au schimbat ofertele (nu doar ora), ca să nu facă commit degeaba
+    def fara_ora(t: str) -> str:
+        return re.sub(r'<p class="sub">Actualizat [^·]*·', "", t)
+    if FISIER_RAPORT.exists() and fara_ora(FISIER_RAPORT.read_text(encoding="utf-8")) == fara_ora(pagina):
+        return
     FISIER_RAPORT.write_text(pagina, encoding="utf-8")
 
 

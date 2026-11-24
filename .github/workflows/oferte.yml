@@ -30,9 +30,10 @@ jobs:
           EMAIL_CATRE: ${{ secrets.EMAIL_CATRE }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
           # Pagina cu toate ofertele (merge după ce activezi Settings → Pages)
-          RAPORT_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: python3 agent_oferte.py
+          export RAPORT_URL="https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/"
+          python3 agent_oferte.py
 
       - name: Salvează istoricul (ca să nu primești aceeași ofertă de două ori)
         run: |
