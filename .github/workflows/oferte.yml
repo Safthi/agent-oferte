@@ -4,7 +4,7 @@ on:
   schedule:
     # La fiecare 15 minute. Dacă repo-ul e PRIVAT, schimbă în "*/30 * * * *"
     # ca să rămâi în cele 2000 de minute gratuite pe lună.
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {}
 
 permissions:
