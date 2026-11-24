@@ -1,0 +1,580 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oferte călătorii</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--txt:#1b1f24;--mut:#5d6672;--lin:#e3e6ea;--acc:#0b6bcb;--sup:#c2410c;--bun:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--card:#1b2027;--txt:#e8eaed;--mut:#9aa3ad;--lin:#2b323b;--acc:#6aa9ff;--sup:#fb923c;--bun:#4ade80}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:20px 16px 48px}h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);margin:0 0 16px}.filtre{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.filtre button{border:1px solid var(--lin);background:var(--card);color:var(--txt);border-radius:999px;padding:6px 12px;cursor:pointer;font:inherit}
+.filtre button.activ{border-color:var(--acc);color:var(--acc)}
+.card{display:flex;gap:14px;background:var(--card);border:1px solid var(--lin);border-radius:12px;padding:14px;margin-bottom:10px;color:inherit;text-decoration:none}
+.card:hover{border-color:var(--acc)}.scor{flex:0 0 46px;height:46px;border-radius:10px;display:grid;place-items:center;font-weight:700;background:var(--lin)}
+.super .scor{background:var(--sup);color:#fff}.bun .scor{background:var(--bun);color:#fff}
+.corp{min-width:0}.sus{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}.pret{font-weight:700;font-size:18px}
+.dest{font-weight:600}.titlu{margin:2px 0;overflow-wrap:anywhere}.det,.sursa{color:var(--mut);font-size:13px}
+</style></head><body><main>
+<h1>Oferte de călătorie din București / Constanța</h1>
+<p class="sub">Actualizat 24.11.2026 12:59 · 50 oferte din ultimele 14 zile, ordonate după scor</p>
+<div class="filtre">
+<button class="activ" data-f="toate">Toate</button><button data-f="BUH">Din București</button>
+<button data-f="CND">Din Constanța</button><button data-f="zbor">Doar zbor</button><button data-f="pachet">Zbor + cazare</button>
+</div>
+<div id="lista">
+<a class="card super" href="https://aventurescu.ro/vrei-sa-mergi-cu-bernina-express-la-iarna-ai-zboruri-de-la-30-euro-si-ponturi-despre-cum-iti-organizezi-excursia/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">98</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">27€</span>
+      <span class="dest">Milano</span></div>
+    <div class="titlu">Vrei să mergi cu Bernina Express la iarna? – Ai zboruri de la 27 EURO si ponturi despre cum iti organizezi excursia!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card super" href="https://calatorfaralimite.ro/7n-hurghada-egipt-all-inclusive-274-zbor-incl/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">89</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">274€</span>
+      <span class="dest">Hurghada, Egipt</span></div>
+    <div class="titlu">SUPEROFERTĂ🔥 7 nopți în HURGHADA, EGIPT la ALL INCLUSIVE 274€ cu zbor inclus</div>
+    <div class="det">zbor + 7 nopți cazare ALL INCLUSIVE · 🛫 București · 📅 8-15 Feb 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-21</div>
+  </div>
+</a>
+<a class="card super" href="https://aventurescu.ro/zboruri-ieftine-catre-venetia/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">88</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">36€</span>
+      <span class="dest">Venetia</span></div>
+    <div class="titlu">Zboruri ieftine catre Venetia, de la 36 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card super" href="https://www.citybreak.club/city-break-warszawa/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">87</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">75€</span>
+      <span class="dest">Varsovia</span></div>
+    <div class="titlu">City Break Varsovia – 75€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-18</div>
+  </div>
+</a>
+<a class="card super" href="https://www.citybreak.club/city-break-erevan/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">87</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">91€</span>
+      <span class="dest">Erevan</span></div>
+    <div class="titlu">City Break Erevan – 91€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 3 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-16</div>
+  </div>
+</a>
+<a class="card super" href="https://aventurescu.ro/zboruri-ieftine-catre-londra/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">83</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">41€</span>
+      <span class="dest">Londra</span></div>
+    <div class="titlu">Zboruri catre Londra – de la 41 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card super" href="https://calatorfaralimite.ro/4zile-la-caldura-paphos-cipru-111-zbor-cazare/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">82</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">111€</span>
+      <span class="dest">Paphos, Cipru</span></div>
+    <div class="titlu">4 zile la căldură☀️ în PAPHOS, CIPRU 111€ zbor și cazare</div>
+    <div class="det">zbor + 4 nopți cazare · 🛫 București · 📅 25-29 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-22</div>
+  </div>
+</a>
+<a class="card super" href="https://www.citybreak.club/city-break-larnaca/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">80</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">86€</span>
+      <span class="dest">Cipru</span></div>
+    <div class="titlu">City Break Cipru – 86€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-22</div>
+  </div>
+</a>
+<a class="card bun" href="https://calatorfaralimite.ro/weekend-in-sicilia-84e-zbor-si-cazare-2-zile/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">78</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">84€</span>
+      <span class="dest">Sicilia</span></div>
+    <div class="titlu">Vacanță de weekend în SICILIA (Catania și Taormina) 84€ zbor și cazare, 2 zile</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 29-31 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-22</div>
+  </div>
+</a>
+<a class="card bun" href="https://calatorfaralimite.ro/vacanta-in-bali-626-zbor-cazare-mic-dejun-10z/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">74</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">626€</span>
+      <span class="dest">Bali</span></div>
+    <div class="titlu">Vacanță ieftină în BALI 626€ zbor și cazare + mic dejun, 10 zile</div>
+    <div class="det">zbor + 10 nopți cazare · 🛫 București · 📅 15-26 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://aventurescu.ro/incredibil-am-gasit-zboruri-catre-cipru-de-la-doar-28-euro-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">72</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">51€</span>
+      <span class="dest">Cipru</span></div>
+    <div class="titlu">Zboruri foarte ieftine catre Cipru – de la 51 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card bun" href="https://tiptrip.ro/zboruri-ieftine-spre-almeria-spania/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=zboruri-ieftine-spre-almeria-spania" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">72</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">55€</span>
+      <span class="dest">Almeria, Spania</span></div>
+    <div class="titlu">Zboruri ieftine spre ALMERIA, SPANIA de la doar 55€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 ianuarie – martie 2027 · Wizz Air</div>
+    <div class="sursa">TipTrip · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://www.citybreak.club/city-break-heraklion/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">71</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">116€</span>
+      <span class="dest">Creta</span></div>
+    <div class="titlu">City Break Creta – 116€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Aprilie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-16</div>
+  </div>
+</a>
+<a class="card bun" href="https://aventurescu.ro/preturi-exagerat-de-mici-la-biletele-de-avion-zboruri-de-la-29-euro-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">70</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">27€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">Preturi foarte mici la biletele de avion! Am gasit zboruri de la 27 EURO dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card bun" href="https://aventurescu.ro/urgent-zboruri-de-revelion-de-la-48-euro-dus-intors-2/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">70</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">47€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">URGENT! Zboruri de Revelion – de la 47 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://www.citybreak.club/city-break-gran-canaria/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">70</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">237€</span>
+      <span class="dest">Gran Canaria</span></div>
+    <div class="titlu">City Break Gran Canaria – 237€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 3 nopți cazare · 🛫 București · 📅 Februarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-18</div>
+  </div>
+</a>
+<a class="card bun" href="https://calatorfaralimite.ro/vacanta-ieftina-creta-296eur-all-inclusive-7z/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">70</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">296€</span>
+      <span class="dest">Creta</span></div>
+    <div class="titlu">VARA 2027☀️ Vacanță ieftină în CRETA 296€ zbor și cazare 🔥ALL INCLUSIVE🔥, 7 zile</div>
+    <div class="det">zbor + 7 nopți cazare ALL INCLUSIVE · 🛫 București · 📅 18-26 Mai 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://tiptrip.ro/black-friday-la-etihad-airways-cu-zboruri-ieftine-spre-destinatii-exotice/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=black-friday-la-etihad-airways-cu-zboruri-ieftine-spre-destinatii-exotice" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">68</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">460€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">Black Friday la Etihad Airways cu zboruri ieftine spre destinatii exotice de la 460€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 decembrie 2026 – iunie 2027 · Etihad</div>
+    <div class="sursa">TipTrip · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://tiptrip.ro/zboruri-ieftine-spre-thailanda-bangkok-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=zboruri-ieftine-spre-thailanda-bangkok-2" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">66</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">544€</span>
+      <span class="dest">Bangkok, Thailanda</span></div>
+    <div class="titlu">Zboruri ieftine spre BANGKOK, THAILANDA de la 544€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 februarie – iunie 2027 · Etihad</div>
+    <div class="sursa">TipTrip · 2026-11-24</div>
+  </div>
+</a>
+<a class="card bun" href="https://calatorfaralimite.ro/6-zile-in-almeria-spania-169eu-zbor-si-cazare/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">65</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">169€</span>
+      <span class="dest">Almeria, Spania</span></div>
+    <div class="titlu">6 zile în ALMERIA, SPANIA 169€ zbor și cazare</div>
+    <div class="det">zbor + 5 nopți cazare · 🛫 București · 📅 5-10 Feb 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://www.citybreak.club/city-break-roma/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">64</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">111€</span>
+      <span class="dest">Roma</span></div>
+    <div class="titlu">City Break Roma – 111€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-18</div>
+  </div>
+</a>
+<a class="card bun" href="https://aventurescu.ro/unde-vezi-aurora-boreala-zboruri-spre-nord-de-la-159e-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">63</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">153€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">Unde vezi Aurora Boreala? Zboruri spre nord, de la 153€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil) · Lufthansa</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card bun" href="https://tiptrip.ro/vacanta-in-muscat-oman/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=vacanta-in-muscat-oman" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">62</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">371€</span>
+      <span class="dest">Oman</span></div>
+    <div class="titlu">O saptamana in OMAN – doar 371€: zboruri + cazare la hotel de 4*</div>
+    <div class="det">zbor + 7 nopți cazare · 🛫 București · 📅 martie 2026</div>
+    <div class="sursa">TipTrip · 2026-11-24</div>
+  </div>
+</a>
+<a class="card bun" href="https://calatorfaralimite.ro/vacanta-seoul-coreea-de-sud-682-zbor-cazare-7/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">62</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">682€</span>
+      <span class="dest">Seoul, Coreea de Sud</span></div>
+    <div class="titlu">Vacanță ieftină în SEOUL, COREEA DE SUD 682€ zbor și cazare, 7 zile</div>
+    <div class="det">zbor + 7 nopți cazare · 🛫 București · 📅 18-26 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://tiptrip.ro/zboruri-spre-italia-sardinia-alghero/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=zboruri-spre-italia-sardinia-alghero" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">61</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">65€</span>
+      <span class="dest">Sardinia</span></div>
+    <div class="titlu">Zboruri spre SARDINIA (Alghero) de la 65€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 martie – mai 2027 · Wizz Air</div>
+    <div class="sursa">TipTrip · 2026-11-23</div>
+  </div>
+</a>
+<a class="card bun" href="https://aventurescu.ro/mega-promotie-etihad-zboruri-de-la-477-euro-dus-intors-thailanda-indonezia-australia-vietnam-si-multe-altele/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">60</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">477€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">MEGA PROMOTIE ETIHAD! Zboruri de la 477 euro dus-intors- Thailanda, Indonezia, Australia, Vietnam si multe altele</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil) · Etihad</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/zboruri-foarte-ieftine-catre-india/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">58</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">491€</span>
+      <span class="dest">India</span></div>
+    <div class="titlu">Zboruri ieftine catre INDIA – 491 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/o-lista-cu-zboruri-ieftine-catre-sri-lanka/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">57</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">537€</span>
+      <span class="dest">Sri Lanka</span></div>
+    <div class="titlu">Zboruri ieftine catre Sri Lanka – de la 537 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București</div>
+    <div class="sursa">Aventurescu + Travelator · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/zboruri-ieftine-catre-tenerife/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">56</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">170€</span>
+      <span class="dest">Tenerife</span></div>
+    <div class="titlu">Zboruri catre Tenerife – de la 170 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-stockholm/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">54</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">126€</span>
+      <span class="dest">Stockholm</span></div>
+    <div class="titlu">City Break Stockholm – 126€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Februarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-22</div>
+  </div>
+</a>
+<a class="card " href="https://calatorfaralimite.ro/zboruri-in-bangkok-thailanda-558e-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">54</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">558€</span>
+      <span class="dest">Bangkok, Thailanda</span></div>
+    <div class="titlu">VÂRF DE SEZON☀️ Zboruri ieftine în BANGKOK, THAILANDA 558€ dus-întors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 13-24 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/promotie-ascunsa-la-turkish-airlines-zboruri-de-la-565-euro-catre-miami-los-angeles-buenos-aires-kathmandu/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">53</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">565€</span>
+      <span class="dest">Miami</span></div>
+    <div class="titlu">Promotie ASCUNSA la Turkish Airlines! Zboruri de la 565 euro catre Miami, Los Angeles, Buenos Aires, Kathmandu!</div>
+    <div class="det">zbor dus-întors · 🛫 București · Turkish Airlines</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/zboruri-ieftine-catre-bangkok-thailanda/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">52</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">533€</span>
+      <span class="dest">Bangkok</span></div>
+    <div class="titlu">Zboruri ieftine catre Bangkok (Thailanda), de la 533 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-oslo/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">51</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">131€</span>
+      <span class="dest">Oslo</span></div>
+    <div class="titlu">City Break Oslo – 131€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-18</div>
+  </div>
+</a>
+<a class="card " href="https://travelator.ro/zboruri-ieftine-catre-seul-de-la-541e-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">51</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">541€</span>
+      <span class="dest">Seul</span></div>
+    <div class="titlu">Zboruri ieftine catre Seul, de la 541€, dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil) · Air China</div>
+    <div class="sursa">Travelator · 2026-11-18</div>
+  </div>
+</a>
+<a class="card " href="https://tiptrip.ro/santander-spania-vacanta/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=santander-spania-vacanta" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">50</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">179€</span>
+      <span class="dest">Santander</span></div>
+    <div class="titlu">SANTANDER, Spania – doar 179€: zboruri + 4 nopti de cazare</div>
+    <div class="det">zbor + 4 nopți cazare · 🛫 București · 📅 martie 2027</div>
+    <div class="sursa">TipTrip · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://tiptrip.ro/zboruri-ieftine-spre-bali-indonezia/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=zboruri-ieftine-spre-bali-indonezia" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">50</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">585€</span>
+      <span class="dest">Bali, Indonezia</span></div>
+    <div class="titlu">Zboruri ieftine spre BALI, INDONEZIA de la 585€ dus-intors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 ianuarie – iunie 2027 · Etihad</div>
+    <div class="sursa">TipTrip + Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://calatorfaralimite.ro/zboruri-ieftine-in-filipine-586eur-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">50</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">586€</span>
+      <span class="dest">Filipine</span></div>
+    <div class="titlu">Zboruri ieftine în FILIPINE 586€ dus-întors</div>
+    <div class="det">zbor dus-întors · 🛫 București · 📅 3-16 Feb 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/o-lista-cu-zboruri-ieftine-catre-filipine/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">49</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">592€</span>
+      <span class="dest">Filipine</span></div>
+    <div class="titlu">ABSURD DE IEFTIN! Am gasit zboruri catre Filipine la 592 euro dus-intors, IN PLIN SEZON!</div>
+    <div class="det">zbor dus-întors · 🛫 București</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://www.fly4free.com/flight-deals/europe/holiday-in-dubai-from-bucharest-e380/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">46</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">380€</span>
+      <span class="dest">Dubai</span></div>
+    <div class="titlu">Winter break in Dubai for €380 p.p. 😏  Cheap flights from Bucharest + 5-night stay at well-rated 4* hotel</div>
+    <div class="det">zbor + 5 nopți cazare · 🛫 București · Pegasus</div>
+    <div class="sursa">Fly4free · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://tiptrip.ro/vacanta-in-tokyo-japonia/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=vacanta-in-tokyo-japonia" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">46</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">831€</span>
+      <span class="dest">Tokyo</span></div>
+    <div class="titlu">Vacanta in TOKYO – 831€: zboruri + 7 nopti de cazare</div>
+    <div class="det">zbor + 7 nopți cazare · 🛫 București · 📅 iunie 2027</div>
+    <div class="sursa">TipTrip · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/gata-cu-iarna-zboruri-de-la-580-euro-catre-destinatii-exotice-bahamas-barbados-filipine-si-altele/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">45</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">586€</span>
+      <span class="dest">Diverse destinații</span></div>
+    <div class="titlu">Gata cu iarna!  Zboruri de la 586 euro catre destinatii exotice – Bahamas, Barbados, Filipine si altele!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil)</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://www.fly4free.com/flight-deals/europe/holiday-in-tenerife-from-bucharest-e469/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">43</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">469€</span>
+      <span class="dest">Tenerife</span></div>
+    <div class="titlu">Holiday in Tenerife for €469 p.p. 😎 🏖️  Flights from Bucharest + 7-night stay at 4* hotel</div>
+    <div class="det">zbor + 7 nopți cazare · 🛫 București</div>
+    <div class="sursa">Fly4free · 2026-11-22</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-koln/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">39</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">149€</span>
+      <span class="dest">Koln</span></div>
+    <div class="titlu">City Break Koln – 149€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-22</div>
+  </div>
+</a>
+<a class="card " href="https://calatorfaralimite.ro/vacanta-in-scotia-261eu-zbor-si-cazare-6-zile/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">37</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">269€</span>
+      <span class="dest">Scoția</span></div>
+    <div class="titlu">6 zile în SCOȚIA 269€ zbor și cazare</div>
+    <div class="det">zbor + 6 nopți cazare · 🛫 București · 📅 18-21 Ian 2027</div>
+    <div class="sursa">Călător fără limite · 2026-11-21</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-copenhaga/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">32</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">159€</span>
+      <span class="dest">Copenhaga</span></div>
+    <div class="titlu">City Break Copenhaga – 159€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-22</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-porto/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">27</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">167€</span>
+      <span class="dest">Porto</span></div>
+    <div class="titlu">City Break Porto – 167€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 2 nopți cazare · 🛫 București · 📅 Ianuarie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-22</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/nou-zboruri-spre-slovenia-ljubljana-de-la-143-euro-dus-intors/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">0</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">146€</span>
+      <span class="dest">Slovenia</span></div>
+    <div class="titlu">NOU! Zboruri spre Slovenia, Ljubljana, de la 146 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București (probabil) · Air Serbia</div>
+    <div class="sursa">Aventurescu · 2026-11-24</div>
+  </div>
+</a>
+<a class="card " href="https://aventurescu.ro/wow-zboruri-de-linie-catre-tunisia/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="zbor">
+  <div class="scor">0</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">152€</span>
+      <span class="dest">Tunisia</span></div>
+    <div class="titlu">Wow! Zboruri de linie catre Tunisia – de la 152 euro dus-intors!</div>
+    <div class="det">zbor dus-întors · 🛫 București · Lufthansa, Air France</div>
+    <div class="sursa">Aventurescu · 2026-11-23</div>
+  </div>
+</a>
+<a class="card " href="https://www.citybreak.club/city-break-kefalonia/" target="_blank" rel="noopener"
+   data-plecari="BUH" data-tip="pachet">
+  <div class="scor">0</div>
+  <div class="corp">
+    <div class="sus"><span class="pret">255€</span>
+      <span class="dest">Kefalonia</span></div>
+    <div class="titlu">City Break Kefalonia – 255€, Zboruri Directe și Cazare</div>
+    <div class="det">zbor + 3 nopți cazare · 🛫 București · 📅 Iunie 2027</div>
+    <div class="sursa">CityBreak.club · 2026-11-18</div>
+  </div>
+</a></div>
+</main><script>
+document.querySelectorAll('.filtre button').forEach(b=>b.onclick=()=>{
+document.querySelectorAll('.filtre button').forEach(x=>x.classList.toggle('activ',x===b));
+const f=b.dataset.f;document.querySelectorAll('.card').forEach(c=>{
+c.style.display=(f==='toate'||c.dataset.plecari.includes(f)||c.dataset.tip===f)?'':'none';});});
+</script></body></html>
