@@ -383,7 +383,8 @@
    "motive": [],
    "vazut": "2026-11-24T10:59:43.231291+00:00",
    "si_pe": [
-    "Aventurescu"
+    "Aventurescu",
+    "Fly4free"
    ],
    "regiune": "asia"
   },
@@ -12733,6 +12734,1752 @@
    "motive": [],
    "vazut": "2026-11-25T05:04:18.586584+00:00",
    "notifica": false
+  },
+  "36b801094f57cac1": {
+   "id": "36b801094f57cac1",
+   "url": "https://calatorfaralimite.ro/8-zile-maldive-cu-828eu-zbor-cazare-mic-dejun/",
+   "titlu": "8 zile în MALDIVE cu 828€ zbor, cazare și mic dejun",
+   "sursa": "Călător fără limite",
+   "sursa_id": "calatorfaralimite",
+   "publicat": "2026-11-25T15:05:30+00:00",
+   "pret": 828.0,
+   "pret_afisat": "828€",
+   "destinatie": "Maldive",
+   "tip": "pachet",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [],
+   "perioada": "3-11 Mar 2027",
+   "scor": 47,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:52.814456+00:00"
+  },
+  "353ee93a8c1404b5": {
+   "id": "353ee93a8c1404b5",
+   "url": "https://calatorfaralimite.ro/vacanta-mauritius-695e-zbor-si-cazare-7-zile/",
+   "titlu": "Vacanță ieftină în MAURITIUS 695€ zbor și cazare, 7 zile",
+   "sursa": "Călător fără limite",
+   "sursa_id": "calatorfaralimite",
+   "publicat": "2026-11-25T13:27:32+00:00",
+   "pret": 695.0,
+   "pret_afisat": "695€",
+   "destinatie": "Mauritius",
+   "tip": "pachet",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [],
+   "perioada": "20-28 Ian 2027",
+   "scor": 60,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:52.815629+00:00"
+  },
+  "95822c1e8bb31982": {
+   "id": "95822c1e8bb31982",
+   "url": "https://tiptrip.ro/pana-la-capatul-lumii-si-inapoi-zboruri-spre-australia-si-fiji-de-la-doar-1146e/?utm_source=rss&utm_medium=rss&utm_campaign=pana-la-capatul-lumii-si-inapoi-zboruri-spre-australia-si-fiji-de-la-doar-1146e",
+   "titlu": "Pana la capatul lumii si inapoi! Zboruri spre Australia si Fiji de la doar 1146€",
+   "sursa": "TipTrip",
+   "sursa_id": "tiptrip",
+   "publicat": "2026-11-25T12:21:00+00:00",
+   "pret": 1146.0,
+   "pret_afisat": "1146€",
+   "destinatie": "Australia",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [],
+   "perioada": "",
+   "scor": 0,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:55.574356+00:00"
+  },
+  "810640823f737390": {
+   "id": "810640823f737390",
+   "url": "https://tiptrip.ro/vacanta-in-boracay-filipine/?utm_source=rss&utm_medium=rss&utm_campaign=vacanta-in-boracay-filipine",
+   "titlu": "Vacanta in BORACAY, FILIPINE – doar 813€: zboruri + 10 nopti de cazare",
+   "sursa": "TipTrip",
+   "sursa_id": "tiptrip",
+   "publicat": "2026-11-25T06:30:13+00:00",
+   "pret": 813.0,
+   "pret_afisat": "813€",
+   "destinatie": "Boracay, Filipine",
+   "tip": "pachet",
+   "nopti": 10,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [],
+   "perioada": "februarie 2027",
+   "scor": 57,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:55.576093+00:00"
+  },
+  "842ba7adc8b2d95b": {
+   "id": "842ba7adc8b2d95b",
+   "url": "https://tiptrip.ro/turkish-airlines-zboruri-ieftine-spre-istanbul-turcia/?utm_source=rss&utm_medium=rss&utm_campaign=turkish-airlines-zboruri-ieftine-spre-istanbul-turcia",
+   "titlu": "TURKISH AIRLINES: Zboruri ieftine spre ISTANBUL de la 91€ dus-intors",
+   "sursa": "TipTrip",
+   "sursa_id": "tiptrip",
+   "publicat": "2026-11-24T22:10:00+00:00",
+   "pret": 91.0,
+   "pret_afisat": "91€",
+   "destinatie": "Istanbul",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "ianuarie – aprilie 2027",
+   "scor": 32,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:55.576993+00:00"
+  },
+  "622d40aae95627fc": {
+   "id": "622d40aae95627fc",
+   "url": "https://aventurescu.ro/zboruri-foarte-ieftine-catre-alexandria-egipt/",
+   "titlu": "WOW, ce destinatie am descoperit, la pret bun! ALEXANDRIA (Egipt) – 140 EURO dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T09:10:46+00:00",
+   "pret": 140.0,
+   "pret_afisat": "140€",
+   "destinatie": "Alexandria",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "",
+   "scor": 69,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.667208+00:00"
+  },
+  "5c416fdb56be3455": {
+   "id": "5c416fdb56be3455",
+   "url": "https://aventurescu.ro/eu-nu-mai-pot-cu-atatea-oferte-bune-reduceri-de-pana-la-50-la-activitatile-getyourguide-zbori-cu-balonul-cu-doar-4-euro/",
+   "titlu": "Nu mai pot cu atatea oferte BUNE! Reduceri de pana la 50% la activitati – Zbori cu balonul cu 50 EURO!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T08:57:22+00:00",
+   "pret": 50.0,
+   "pret_afisat": "50€",
+   "destinatie": "Bune",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [],
+   "perioada": "",
+   "scor": 73,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.667708+00:00"
+  },
+  "fe96bfd63415f016": {
+   "id": "fe96bfd63415f016",
+   "url": "https://aventurescu.ro/zboruri-catre-budapesta/",
+   "titlu": "Zboruri catre Budapesta, de la 35 euro dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T08:36:20+00:00",
+   "pret": 35.0,
+   "pret_afisat": "35€",
+   "destinatie": "Budapesta",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [],
+   "perioada": "",
+   "scor": 99,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 47€)"
+   ],
+   "vazut": "2026-11-25T15:28:56.667948+00:00",
+   "notificat": true
+  },
+  "01218462d42956d1": {
+   "id": "01218462d42956d1",
+   "url": "https://aventurescu.ro/zboruri-foarte-ieftine-catre-bali/",
+   "titlu": "Niciodata nu au fost asa ieftine zborurile! BALI – 581 euro dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T08:27:37+00:00",
+   "pret": 581.0,
+   "pret_afisat": "581€",
+   "destinatie": "Bali",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [],
+   "perioada": "",
+   "scor": 46,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.668235+00:00"
+  },
+  "f8047750f471f6b5": {
+   "id": "f8047750f471f6b5",
+   "url": "https://aventurescu.ro/zboruri-ieftine-catre-amsterdam/",
+   "titlu": "Promotie! Zboruri catre Amsterdam la promotie, 189 euro dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T08:25:12+00:00",
+   "pret": 189.0,
+   "pret_afisat": "189€",
+   "destinatie": "Amsterdam",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [
+    "TAROM",
+    "KLM"
+   ],
+   "perioada": "",
+   "scor": 0,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.668597+00:00"
+  },
+  "793f6180ab0f9c70": {
+   "id": "793f6180ab0f9c70",
+   "url": "https://aventurescu.ro/targul-de-craciun-din-strasbourg-156-euro-dus-intors-cu-lufthansa/",
+   "titlu": "Targul de Craciun din Strasbourg: 126 euro dus-intors cu Lufthansa!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T07:50:35+00:00",
+   "pret": 126.0,
+   "pret_afisat": "126€",
+   "destinatie": "Diverse destinații",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [
+    "Lufthansa"
+   ],
+   "perioada": "noiembrie 2026",
+   "scor": 0,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.669579+00:00"
+  },
+  "8c881ef8c1b71ba8": {
+   "id": "8c881ef8c1b71ba8",
+   "url": "https://aventurescu.ro/s-au-ieftinit-foarte-mult-zborurile-tarom/",
+   "titlu": "Promotie EARLY BIRD TAROM! Am gasit preturi de la 53 euro dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T07:33:27+00:00",
+   "pret": 53.0,
+   "pret_afisat": "53€",
+   "destinatie": "Early Bird",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [
+    "TAROM"
+   ],
+   "perioada": "",
+   "scor": 69,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.669939+00:00"
+  },
+  "212d25d1590b2801": {
+   "id": "212d25d1590b2801",
+   "url": "https://aventurescu.ro/zboruri-ieftine-in-vacanta-scolara-de-paste-2027-de-la-52-euro-dus-intors/",
+   "titlu": "Zboruri ieftine in vacanta scolara de PASTE 2027 – de la 55 euro dus-intors!",
+   "sursa": "Aventurescu",
+   "sursa_id": "aventurescu",
+   "publicat": "2026-11-25T07:17:48+00:00",
+   "pret": 55.0,
+   "pret_afisat": "55€",
+   "destinatie": "Diverse destinații",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": false,
+   "companii": [],
+   "perioada": "aprilie 2027",
+   "scor": 67,
+   "motive": [],
+   "vazut": "2026-11-25T15:28:56.670448+00:00"
+  },
+  "75a1abc5cef6ba3e": {
+   "id": "75a1abc5cef6ba3e",
+   "url": "https://www.fly4free.com/flight-deals/europe/etihad-airways-flights-from-bucharest-to-bali-indonesia-e585/",
+   "titlu": "Etihad Airways flights from Bucharest to Bali, Indonesia 🌸 for €585",
+   "sursa": "Fly4free",
+   "sursa_id": "fly4free",
+   "publicat": "2026-11-25T07:00:05+00:00",
+   "pret": 585.0,
+   "pret_afisat": "585€",
+   "destinatie": "Bali",
+   "tip": "zbor",
+   "nopti": null,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "companii": [
+    "Etihad"
+   ],
+   "perioada": "",
+   "scor": 50,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:04.292173+00:00",
+   "duplicat_al": "f26929edbed6bcc0"
+  },
+  "b3baa6f8de622883": {
+   "id": "b3baa6f8de622883",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-SUF/2027-01-21/2027-01-24/1adults",
+   "titlu": "Lamezia Terme, Italia – 34€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T04:33:00+00:00",
+   "pret": 34.0,
+   "pret_afisat": "34€",
+   "destinatie": "Lamezia Terme, Italia",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "21–24 ian. 2027",
+   "data_plecare": "2027-01-21",
+   "data_intoarcere": "2027-01-24",
+   "radar": true,
+   "scor": 100,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 64€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.424483+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "aac9bd18eaecd757": {
+   "id": "aac9bd18eaecd757",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-FMM/2027-03-05/2027-03-08/1adults",
+   "titlu": "München, Germania – 39€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-23T20:50:00+00:00",
+   "pret": 39.0,
+   "pret_afisat": "39€",
+   "destinatie": "München, Germania",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "5–8 mar. 2027",
+   "data_plecare": "2027-03-05",
+   "data_intoarcere": "2027-03-08",
+   "radar": true,
+   "scor": 93,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.424575+00:00",
+   "notifica": false
+  },
+  "4a67e2f545817037": {
+   "id": "4a67e2f545817037",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-CTA/2027-02-06/2027-02-10/1adults",
+   "titlu": "Catania, Italia – 39€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-22T06:44:00+00:00",
+   "pret": 39.0,
+   "pret_afisat": "39€",
+   "destinatie": "Catania, Italia",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "6–10 feb. 2027",
+   "data_plecare": "2027-02-06",
+   "data_intoarcere": "2027-02-10",
+   "radar": true,
+   "scor": 100,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 71€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.424622+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "fa2866851efb06ba": {
+   "id": "fa2866851efb06ba",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-PSA/2027-01-22/2027-01-25/1adults",
+   "titlu": "Pisa, Italia – 39€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T06:41:00+00:00",
+   "pret": 39.0,
+   "pret_afisat": "39€",
+   "destinatie": "Pisa, Italia",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "22–25 ian. 2027",
+   "data_plecare": "2027-01-22",
+   "data_intoarcere": "2027-01-25",
+   "radar": true,
+   "scor": 100,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 68€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.424702+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "c34977655e60609c": {
+   "id": "c34977655e60609c",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-BLQ/2027-02-04/2027-02-06/1adults",
+   "titlu": "Bologna, Italia – 40€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T19:05:00+00:00",
+   "pret": 40.0,
+   "pret_afisat": "40€",
+   "destinatie": "Bologna, Italia",
+   "tip": "zbor",
+   "nopti": 2,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "4–6 feb. 2027",
+   "data_plecare": "2027-02-04",
+   "data_intoarcere": "2027-02-06",
+   "radar": true,
+   "scor": 92,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.424823+00:00",
+   "notifica": false
+  },
+  "d1ff653f9376fc1a": {
+   "id": "d1ff653f9376fc1a",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-NAP/2027-02-18/2027-02-20/1adults",
+   "titlu": "Napoli, Italia – 44€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T17:15:00+00:00",
+   "pret": 44.0,
+   "pret_afisat": "44€",
+   "destinatie": "Napoli, Italia",
+   "tip": "zbor",
+   "nopti": 2,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "18–20 feb. 2027",
+   "data_plecare": "2027-02-18",
+   "data_intoarcere": "2027-02-20",
+   "radar": true,
+   "scor": 97,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 61€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.425043+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "f186bc53ab79b17d": {
+   "id": "f186bc53ab79b17d",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-TRN/2027-01-25/2027-01-29/1adults",
+   "titlu": "Torino, Italia – 44€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-21T16:33:00+00:00",
+   "pret": 44.0,
+   "pret_afisat": "44€",
+   "destinatie": "Torino, Italia",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "25–29 ian. 2027",
+   "data_plecare": "2027-01-25",
+   "data_intoarcere": "2027-01-29",
+   "radar": true,
+   "scor": 97,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 80€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.425123+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "db327adda0ac6223": {
+   "id": "db327adda0ac6223",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-LCA/2027-02-27/2027-03-03/1adults",
+   "titlu": "Larnaca, Cipru – 47€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-16T13:25:00+00:00",
+   "pret": 47.0,
+   "pret_afisat": "47€",
+   "destinatie": "Larnaca, Cipru",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "27 feb. – 3 mar. 2027",
+   "data_plecare": "2027-02-27",
+   "data_intoarcere": "2027-03-03",
+   "radar": true,
+   "scor": 84,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.425201+00:00",
+   "notifica": false
+  },
+  "79efcb49ce4f33c4": {
+   "id": "79efcb49ce4f33c4",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-GRO/2027-02-26/2027-03-05/1adults",
+   "titlu": "Barcelona Girona, Spania – 48€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T17:26:00+00:00",
+   "pret": 48.0,
+   "pret_afisat": "48€",
+   "destinatie": "Barcelona Girona, Spania",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "26 feb. – 5 mar. 2027",
+   "data_plecare": "2027-02-26",
+   "data_intoarcere": "2027-03-05",
+   "radar": true,
+   "scor": 83,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.425299+00:00",
+   "notifica": false
+  },
+  "8ae1b077cc869642": {
+   "id": "8ae1b077cc869642",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-HHN/2027-03-06/2027-03-09/1adults",
+   "titlu": "Frankfurt, Germania – 51€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-22T11:31:00+00:00",
+   "pret": 51.0,
+   "pret_afisat": "51€",
+   "destinatie": "Frankfurt, Germania",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "6–9 mar. 2027",
+   "data_plecare": "2027-03-06",
+   "data_intoarcere": "2027-03-09",
+   "radar": true,
+   "scor": 90,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 58€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.425496+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "21ca8a67f91c22a6": {
+   "id": "21ca8a67f91c22a6",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-BSL/2027-02-05/2027-02-12/1adults",
+   "titlu": "Basel-Mulhouse, Elveția / Franța – 53€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-21T07:21:00+00:00",
+   "pret": 53.0,
+   "pret_afisat": "53€",
+   "destinatie": "Basel-Mulhouse, Elveția / Franța",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "5–12 feb. 2027",
+   "data_plecare": "2027-02-05",
+   "data_intoarcere": "2027-02-12",
+   "radar": true,
+   "scor": 77,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.425650+00:00",
+   "notifica": false
+  },
+  "5a50469531fe9eec": {
+   "id": "5a50469531fe9eec",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-PRG/2027-02-07/2027-02-12/1adults",
+   "titlu": "Praga, Cehia – 63€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T02:12:00+00:00",
+   "pret": 63.0,
+   "pret_afisat": "63€",
+   "destinatie": "Praga, Cehia",
+   "tip": "zbor",
+   "nopti": 5,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "7–12 feb. 2027",
+   "data_plecare": "2027-02-07",
+   "data_intoarcere": "2027-02-12",
+   "radar": true,
+   "scor": 66,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.425907+00:00",
+   "notifica": false
+  },
+  "87e198d3e5fbef8d": {
+   "id": "87e198d3e5fbef8d",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-HHN/2027-01-16/2027-01-19/1adults",
+   "titlu": "Frankfurt Hahn, Germania – 64€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T09:40:00+00:00",
+   "pret": 64.0,
+   "pret_afisat": "64€",
+   "destinatie": "Frankfurt Hahn, Germania",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "16–19 ian. 2027",
+   "data_plecare": "2027-01-16",
+   "data_intoarcere": "2027-01-19",
+   "radar": true,
+   "scor": 75,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 131€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.425987+00:00",
+   "notifica": true
+  },
+  "600238cff6207c16": {
+   "id": "600238cff6207c16",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-BRS/2027-01-15/2027-01-18/1adults",
+   "titlu": "Bristol, Marea Britanie – 67€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-21T20:46:00+00:00",
+   "pret": 67.0,
+   "pret_afisat": "67€",
+   "destinatie": "Bristol, Marea Britanie",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "15–18 ian. 2027",
+   "data_plecare": "2027-01-15",
+   "data_intoarcere": "2027-01-18",
+   "radar": true,
+   "scor": 69,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 81€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.426102+00:00",
+   "notifica": true
+  },
+  "7af155103ca136a1": {
+   "id": "7af155103ca136a1",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-LPL/2027-01-28/2027-01-31/1adults",
+   "titlu": "Liverpool, Marea Britanie – 70€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T00:21:00+00:00",
+   "pret": 70.0,
+   "pret_afisat": "70€",
+   "destinatie": "Liverpool, Marea Britanie",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "28–31 ian. 2027",
+   "data_plecare": "2027-01-28",
+   "data_intoarcere": "2027-01-31",
+   "radar": true,
+   "scor": 69,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 86€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.426317+00:00",
+   "notifica": true
+  },
+  "4f327445989dfb98": {
+   "id": "4f327445989dfb98",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-CLJ/2026-12-28/2026-12-30/1adults",
+   "titlu": "Cluj-Napoca, România – 70€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T14:30:00+00:00",
+   "pret": 70.0,
+   "pret_afisat": "70€",
+   "destinatie": "Cluj-Napoca, România",
+   "tip": "zbor",
+   "nopti": 2,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "28–30 dec. 2026",
+   "data_plecare": "2026-12-28",
+   "data_intoarcere": "2026-12-30",
+   "radar": true,
+   "scor": 59,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.426365+00:00",
+   "notifica": false
+  },
+  "543321e4fa42fc87": {
+   "id": "543321e4fa42fc87",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-NUE/2027-01-18/2027-01-22/1adults",
+   "titlu": "Nürnberg, Germania – 72€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-21T20:53:00+00:00",
+   "pret": 72.0,
+   "pret_afisat": "72€",
+   "destinatie": "Nürnberg, Germania",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "18–22 ian. 2027",
+   "data_plecare": "2027-01-18",
+   "data_intoarcere": "2027-01-22",
+   "radar": true,
+   "scor": 66,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 107€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.426483+00:00",
+   "notifica": true
+  },
+  "5fa1448a275cfad6": {
+   "id": "5fa1448a275cfad6",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-VLC/2027-02-14/2027-02-18/1adults",
+   "titlu": "Valencia, Spania – 75€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T09:28:00+00:00",
+   "pret": 75.0,
+   "pret_afisat": "75€",
+   "destinatie": "Valencia, Spania",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "14–18 feb. 2027",
+   "data_plecare": "2027-02-14",
+   "data_intoarcere": "2027-02-18",
+   "radar": true,
+   "scor": 53,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.426594+00:00",
+   "notifica": false
+  },
+  "45023dcef2d1a670": {
+   "id": "45023dcef2d1a670",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-PMO/2027-01-24/2027-01-27/1adults",
+   "titlu": "Palermo, Italia – 82€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-22T21:25:00+00:00",
+   "pret": 82.0,
+   "pret_afisat": "82€",
+   "destinatie": "Palermo, Italia",
+   "tip": "zbor",
+   "nopti": 3,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "24–27 ian. 2027",
+   "data_plecare": "2027-01-24",
+   "data_intoarcere": "2027-01-27",
+   "radar": true,
+   "scor": 52,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 91€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.426746+00:00",
+   "notifica": true
+  },
+  "7efe66f37150e216": {
+   "id": "7efe66f37150e216",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-EDI/2027-02-08/2027-02-15/1adults",
+   "titlu": "Edinburgh, Marea Britanie – 88€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T08:45:00+00:00",
+   "pret": 88.0,
+   "pret_afisat": "88€",
+   "destinatie": "Edinburgh, Marea Britanie",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "8–15 feb. 2027",
+   "data_plecare": "2027-02-08",
+   "data_intoarcere": "2027-02-15",
+   "radar": true,
+   "scor": 39,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.426968+00:00",
+   "notifica": false
+  },
+  "59d83cd1e960688f": {
+   "id": "59d83cd1e960688f",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-SSH/2027-03-11/2027-03-18/1adults",
+   "titlu": "Sharm el-Sheikh, Egipt – 111€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T00:51:00+00:00",
+   "pret": 111.0,
+   "pret_afisat": "111€",
+   "destinatie": "Sharm el-Sheikh, Egipt",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "11–18 mar. 2027",
+   "data_plecare": "2027-03-11",
+   "data_intoarcere": "2027-03-18",
+   "radar": true,
+   "scor": 86,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.427571+00:00",
+   "notifica": false
+  },
+  "a0ca180750b0db7d": {
+   "id": "a0ca180750b0db7d",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-ZRH/2027-01-18/2027-01-22/1adults",
+   "titlu": "Zürich, Elveția – 127€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T11:24:00+00:00",
+   "pret": 127.0,
+   "pret_afisat": "127€",
+   "destinatie": "Zürich, Elveția",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "18–22 ian. 2027",
+   "data_plecare": "2027-01-18",
+   "data_intoarcere": "2027-01-22",
+   "radar": true,
+   "scor": 0,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.427950+00:00",
+   "notifica": true
+  },
+  "53620fd527abc8a9": {
+   "id": "53620fd527abc8a9",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-ORN/2027-01-22/2027-01-31/1adults",
+   "titlu": "Oran, Algeria – 146€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T13:31:00+00:00",
+   "pret": 146.0,
+   "pret_afisat": "146€",
+   "destinatie": "Oran, Algeria",
+   "tip": "zbor",
+   "nopti": 9,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "22–31 ian. 2027",
+   "data_plecare": "2027-01-22",
+   "data_intoarcere": "2027-01-31",
+   "radar": true,
+   "scor": 71,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.428168+00:00",
+   "notifica": false
+  },
+  "bbbbbf937845f0fc": {
+   "id": "bbbbbf937845f0fc",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-CAI/2027-04-12/2027-04-16/1adults",
+   "titlu": "Cairo, Egipt – 151€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-23T09:28:00+00:00",
+   "pret": 151.0,
+   "pret_afisat": "151€",
+   "destinatie": "Cairo, Egipt",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "africa",
+   "direct": true,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "TAROM"
+   ],
+   "perioada": "12–16 apr. 2027",
+   "data_plecare": "2027-04-12",
+   "data_intoarcere": "2027-04-16",
+   "radar": true,
+   "scor": 82,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 175€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.428208+00:00",
+   "notifica": true,
+   "notificat": true
+  },
+  "758967fce9b92c72": {
+   "id": "758967fce9b92c72",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-AMM/2027-02-01/2027-02-08/1adults",
+   "titlu": "Amman, Iordania – 164€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-22T10:06:00+00:00",
+   "pret": 164.0,
+   "pret_afisat": "164€",
+   "destinatie": "Amman, Iordania",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Pegasus Airlines"
+   ],
+   "perioada": "1–8 feb. 2027",
+   "data_plecare": "2027-02-01",
+   "data_intoarcere": "2027-02-08",
+   "radar": true,
+   "scor": 63,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.428333+00:00",
+   "notifica": false
+  },
+  "bfe3198d74d2974f": {
+   "id": "bfe3198d74d2974f",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-SHJ/2027-02-28/2027-03-04/1adults",
+   "titlu": "Sharjah, Emiratele Arabe Unite – 226€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-21T21:02:00+00:00",
+   "pret": 226.0,
+   "pret_afisat": "226€",
+   "destinatie": "Sharjah, Emiratele Arabe Unite",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Pegasus Airlines"
+   ],
+   "perioada": "28 feb. – 4 mar. 2027",
+   "data_plecare": "2027-02-28",
+   "data_intoarcere": "2027-03-04",
+   "radar": true,
+   "scor": 47,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 302€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.428536+00:00",
+   "notifica": true
+  },
+  "6672e0cc7a02bae0": {
+   "id": "6672e0cc7a02bae0",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-JED/2026-12-09/2026-12-17/1adults",
+   "titlu": "Jeddah, Arabia Saudită – 305€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-20T23:32:00+00:00",
+   "pret": 305.0,
+   "pret_afisat": "305€",
+   "destinatie": "Jeddah, Arabia Saudită",
+   "tip": "zbor",
+   "nopti": 8,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Pegasus Airlines"
+   ],
+   "perioada": "9–17 dec. 2026",
+   "data_plecare": "2026-12-09",
+   "data_intoarcere": "2026-12-17",
+   "radar": true,
+   "scor": 3,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.428766+00:00",
+   "notifica": false
+  },
+  "ce2243fe6af79876": {
+   "id": "ce2243fe6af79876",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-YYC/2027-01-16/2027-01-25/1adults",
+   "titlu": "Calgary, Canada – 451€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T12:14:00+00:00",
+   "pret": 451.0,
+   "pret_afisat": "451€",
+   "destinatie": "Calgary, Canada",
+   "tip": "zbor",
+   "nopti": 9,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "america_n",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "16–25 ian. 2027",
+   "data_plecare": "2027-01-16",
+   "data_intoarcere": "2027-01-25",
+   "radar": true,
+   "scor": 69,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429100+00:00",
+   "notifica": false
+  },
+  "f8ff04df69279288": {
+   "id": "f8ff04df69279288",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-DEL/2027-04-12/2027-04-20/1adults",
+   "titlu": "New Delhi, India – 474€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T09:02:00+00:00",
+   "pret": 474.0,
+   "pret_afisat": "474€",
+   "destinatie": "New Delhi, India",
+   "tip": "zbor",
+   "nopti": 8,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Etihad Airways"
+   ],
+   "perioada": "12–20 apr. 2027",
+   "data_plecare": "2027-04-12",
+   "data_intoarcere": "2027-04-20",
+   "radar": true,
+   "scor": 76,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 527€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.429253+00:00",
+   "notifica": true
+  },
+  "f334d632ba915489": {
+   "id": "f334d632ba915489",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-GMP/2026-12-07/2026-12-31/1adults",
+   "titlu": "Seul, Coreea de Sud – 511€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T08:23:00+00:00",
+   "pret": 511.0,
+   "pret_afisat": "511€",
+   "destinatie": "Seul, Coreea de Sud",
+   "tip": "zbor",
+   "nopti": 24,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Air China"
+   ],
+   "perioada": "7–31 dec. 2026",
+   "data_plecare": "2026-12-07",
+   "data_intoarcere": "2026-12-31",
+   "radar": true,
+   "scor": 71,
+   "motive": [
+    "preț mai mic decât în ultimele 30 de zile (înainte 574€)"
+   ],
+   "vazut": "2026-11-25T15:29:07.429410+00:00",
+   "notifica": true
+  },
+  "b22229e69e0356dc": {
+   "id": "b22229e69e0356dc",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-NBO/2027-03-05/2027-03-20/1adults",
+   "titlu": "Nairobi, Kenya – 522€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-22T12:52:00+00:00",
+   "pret": 522.0,
+   "pret_afisat": "522€",
+   "destinatie": "Nairobi, Kenya",
+   "tip": "zbor",
+   "nopti": 15,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Wizz Air"
+   ],
+   "perioada": "5–20 mar. 2027",
+   "data_plecare": "2027-03-05",
+   "data_intoarcere": "2027-03-20",
+   "radar": true,
+   "scor": 59,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429544+00:00",
+   "notifica": false
+  },
+  "fe59078173bbefe2": {
+   "id": "fe59078173bbefe2",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-SIN/2027-01-08/2027-01-21/1adults",
+   "titlu": "Singapore – 550€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T23:36:00+00:00",
+   "pret": 550.0,
+   "pret_afisat": "550€",
+   "destinatie": "Singapore",
+   "tip": "zbor",
+   "nopti": 13,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Etihad Airways"
+   ],
+   "perioada": "8–21 ian. 2027",
+   "data_plecare": "2027-01-08",
+   "data_intoarcere": "2027-01-21",
+   "radar": true,
+   "scor": 55,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429643+00:00",
+   "notifica": false
+  },
+  "4b43d393fcea28fe": {
+   "id": "4b43d393fcea28fe",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-YYZ/2027-01-14/2027-01-30/1adults",
+   "titlu": "Toronto, Canada – 551€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T04:18:00+00:00",
+   "pret": 551.0,
+   "pret_afisat": "551€",
+   "destinatie": "Toronto, Canada",
+   "tip": "zbor",
+   "nopti": 16,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "america_n",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "14–30 ian. 2027",
+   "data_plecare": "2027-01-14",
+   "data_intoarcere": "2027-01-30",
+   "radar": true,
+   "scor": 55,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429679+00:00",
+   "notifica": false
+  },
+  "a68de5d296ecec3e": {
+   "id": "a68de5d296ecec3e",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-MRU/2027-01-13/2027-01-21/1adults",
+   "titlu": "Mauritius – 566€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-25T04:14:00+00:00",
+   "pret": 566.0,
+   "pret_afisat": "566€",
+   "destinatie": "Mauritius",
+   "tip": "zbor",
+   "nopti": 8,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Etihad Airways"
+   ],
+   "perioada": "13–21 ian. 2027",
+   "data_plecare": "2027-01-13",
+   "data_intoarcere": "2027-01-21",
+   "radar": true,
+   "scor": 53,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429779+00:00",
+   "notifica": false
+  },
+  "63c097c33d3264f7": {
+   "id": "63c097c33d3264f7",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/OTP-CPT/2027-01-18/2027-01-29/1adults",
+   "titlu": "Cape Town, Africa de Sud – 683€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-24T22:04:00+00:00",
+   "pret": 683.0,
+   "pret_afisat": "683€",
+   "destinatie": "Cape Town, Africa de Sud",
+   "tip": "zbor",
+   "nopti": 11,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "africa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "OTP",
+   "companii": [
+    "Ryanair"
+   ],
+   "perioada": "18–29 ian. 2027",
+   "data_plecare": "2027-01-18",
+   "data_intoarcere": "2027-01-29",
+   "radar": true,
+   "scor": 36,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.429989+00:00",
+   "notifica": false
+  },
+  "ad358657441135e1": {
+   "id": "ad358657441135e1",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/BBU-FMM/2026-12-24/2026-12-31/1adults",
+   "titlu": "München, Germania – 54€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_bucuresti",
+   "publicat": "2026-11-23T08:01:00+00:00",
+   "pret": 54.0,
+   "pret_afisat": "54€",
+   "destinatie": "München, Germania",
+   "tip": "zbor",
+   "nopti": 7,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "BUH"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "BBU",
+   "companii": [],
+   "perioada": "24–31 dec. 2026",
+   "data_plecare": "2026-12-24",
+   "data_intoarcere": "2026-12-31",
+   "radar": true,
+   "scor": 73,
+   "motive": [],
+   "vazut": "2026-11-25T15:29:07.430286+00:00",
+   "notifica": false
+  },
+  "a304b9743e5c6923": {
+   "id": "a304b9743e5c6923",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/CND-VNO/2026-12-13/2026-12-17/1adults",
+   "titlu": "Vilnius, Lituania – 293€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_constanta",
+   "publicat": "2026-11-25T04:03:00+00:00",
+   "pret": 293.0,
+   "pret_afisat": "293€",
+   "destinatie": "Vilnius, Lituania",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "europa",
+   "regiune": "europa",
+   "direct": false,
+   "plecari": [
+    "CND"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "CND",
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "13–17 dec. 2026",
+   "data_plecare": "2026-12-13",
+   "data_intoarcere": "2026-12-17",
+   "radar": true,
+   "scor": 10,
+   "motive": [
+    "plecare din Constanța",
+    "preț mai mic decât în ultimele 30 de zile (înainte 370€)"
+   ],
+   "vazut": "2026-11-25T15:29:08.994350+00:00",
+   "notifica": true
+  },
+  "bb6e3fc5b825cfc7": {
+   "id": "bb6e3fc5b825cfc7",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/CND-DXB/2026-12-13/2026-12-17/1adults",
+   "titlu": "Dubai, Emiratele Arabe Unite – 319€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_constanta",
+   "publicat": "2026-11-24T22:30:00+00:00",
+   "pret": 319.0,
+   "pret_afisat": "319€",
+   "destinatie": "Dubai, Emiratele Arabe Unite",
+   "tip": "zbor",
+   "nopti": 4,
+   "all_inclusive": false,
+   "distanta": "mediu",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "CND"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "CND",
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "13–17 dec. 2026",
+   "data_plecare": "2026-12-13",
+   "data_intoarcere": "2026-12-17",
+   "radar": true,
+   "scor": 17,
+   "motive": [
+    "plecare din Constanța",
+    "preț mai mic decât în ultimele 30 de zile (înainte 438€)"
+   ],
+   "vazut": "2026-11-25T15:29:08.994470+00:00",
+   "notifica": true
+  },
+  "f793dbcae4f0dc04": {
+   "id": "f793dbcae4f0dc04",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/CND-KUL/2026-12-28/2027-01-10/1adults",
+   "titlu": "Kuala Lumpur, Malaezia – 1051€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_constanta",
+   "publicat": "2026-11-25T00:44:00+00:00",
+   "pret": 1051.0,
+   "pret_afisat": "1051€",
+   "destinatie": "Kuala Lumpur, Malaezia",
+   "tip": "zbor",
+   "nopti": 13,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "CND"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "CND",
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "28 dec. 2026 – 10 ian. 2027",
+   "data_plecare": "2026-12-28",
+   "data_intoarcere": "2027-01-10",
+   "radar": true,
+   "scor": 0,
+   "motive": [
+    "plecare din Constanța"
+   ],
+   "vazut": "2026-11-25T15:29:08.995697+00:00",
+   "notifica": true
+  },
+  "1f28153a14ec7e87": {
+   "id": "1f28153a14ec7e87",
+   "url": "https://www.momondo.ro/in?a=kan_228065_592817&lc=ro&encoder=27_1&enc_pid=deeplinks&enc_lid=radar&url=/flight-search/CND-SGN/2026-12-27/2027-01-10/1adults",
+   "titlu": "Ho Chi Minh, Vietnam – 1130€ dus-întors",
+   "sursa": "Aventurescu Radar",
+   "sursa_id": "radar_constanta",
+   "publicat": "2026-11-18T10:46:00+00:00",
+   "pret": 1130.0,
+   "pret_afisat": "1130€",
+   "destinatie": "Ho Chi Minh, Vietnam",
+   "tip": "zbor",
+   "nopti": 14,
+   "all_inclusive": false,
+   "distanta": "lung",
+   "regiune": "asia",
+   "direct": false,
+   "plecari": [
+    "CND"
+   ],
+   "plecare_sigura": true,
+   "aeroport": "CND",
+   "companii": [
+    "Turkish Airlines"
+   ],
+   "perioada": "27 dec. 2026 – 10 ian. 2027",
+   "data_plecare": "2026-12-27",
+   "data_intoarcere": "2027-01-10",
+   "radar": true,
+   "scor": 0,
+   "motive": [
+    "plecare din Constanța"
+   ],
+   "vazut": "2026-11-25T15:29:08.995806+00:00",
+   "notifica": false
   }
  },
  "minime": {
@@ -12789,8 +14536,8 @@
    "ts": "2026-11-24T11:50:44.861328+00:00"
   },
   "budapesta|zbor|BUH": {
-   "pret": 47.0,
-   "ts": "2026-11-24T11:50:44.861365+00:00"
+   "pret": 35.0,
+   "ts": "2026-11-25T15:29:08.995947+00:00"
   },
   "londra|zbor|BUH": {
    "pret": 47.0,
@@ -12809,8 +14556,8 @@
    "ts": "2026-11-24T11:50:44.861522+00:00"
   },
   "barcelona girona|zbor|BUH": {
-   "pret": 50.0,
-   "ts": "2026-11-24T11:50:44.861561+00:00"
+   "pret": 48.0,
+   "ts": "2026-11-25T15:29:08.996011+00:00"
   },
   "basel-mulhouse|zbor|BUH": {
    "pret": 51.0,
@@ -12833,8 +14580,8 @@
    "ts": "2026-11-25T05:04:19.527545+00:00"
   },
   "frankfurt|zbor|BUH": {
-   "pret": 58.0,
-   "ts": "2026-11-24T11:50:44.861835+00:00"
+   "pret": 51.0,
+   "ts": "2026-11-25T15:29:08.996020+00:00"
   },
   "stockholm|zbor|BUH": {
    "pret": 55.0,
@@ -12849,8 +14596,8 @@
    "ts": "2026-11-24T11:50:44.861954+00:00"
   },
   "napoli|zbor|BUH": {
-   "pret": 61.0,
-   "ts": "2026-11-24T11:50:44.861990+00:00"
+   "pret": 44.0,
+   "ts": "2026-11-25T15:29:08.995990+00:00"
   },
   "almeria|zbor|BUH": {
    "pret": 61.0,
@@ -12865,12 +14612,12 @@
    "ts": "2026-11-24T11:50:44.862102+00:00"
   },
   "lamezia terme|zbor|BUH": {
-   "pret": 64.0,
-   "ts": "2026-11-24T11:50:44.862141+00:00"
+   "pret": 34.0,
+   "ts": "2026-11-25T15:29:08.995932+00:00"
   },
   "praga|zbor|BUH": {
-   "pret": 66.0,
-   "ts": "2026-11-24T11:50:44.862209+00:00"
+   "pret": 63.0,
+   "ts": "2026-11-25T15:29:08.996042+00:00"
   },
   "roma|zbor|BUH": {
    "pret": 49.0,
@@ -12889,8 +14636,8 @@
    "ts": "2026-11-25T05:04:19.527465+00:00"
   },
   "pisa|zbor|BUH": {
-   "pret": 68.0,
-   "ts": "2026-11-24T11:50:44.862409+00:00"
+   "pret": 39.0,
+   "ts": "2026-11-25T15:29:08.995976+00:00"
   },
   "cluj-napoca|zbor|BUH": {
    "pret": 69.0,
@@ -12901,8 +14648,8 @@
    "ts": "2026-11-24T11:50:44.862486+00:00"
   },
   "catania|zbor|BUH": {
-   "pret": 71.0,
-   "ts": "2026-11-24T11:50:44.862523+00:00"
+   "pret": 39.0,
+   "ts": "2026-11-25T15:29:08.995967+00:00"
   },
   "valencia|zbor|BUH": {
    "pret": 72.0,
@@ -12921,12 +14668,12 @@
    "ts": "2026-11-25T05:04:19.527673+00:00"
   },
   "torino|zbor|BUH": {
-   "pret": 80.0,
-   "ts": "2026-11-24T11:50:44.862702+00:00"
+   "pret": 44.0,
+   "ts": "2026-11-25T15:29:08.995998+00:00"
   },
   "bristol|zbor|BUH": {
-   "pret": 81.0,
-   "ts": "2026-11-24T11:50:44.862741+00:00"
+   "pret": 67.0,
+   "ts": "2026-11-25T15:29:08.996055+00:00"
   },
   "zagreb|zbor|BUH": {
    "pret": 82.0,
@@ -12945,8 +14692,8 @@
    "ts": "2026-11-24T11:50:44.862893+00:00"
   },
   "liverpool|zbor|BUH": {
-   "pret": 86.0,
-   "ts": "2026-11-24T11:50:44.862931+00:00"
+   "pret": 70.0,
+   "ts": "2026-11-25T15:29:08.996061+00:00"
   },
   "podgorica|zbor|BUH": {
    "pret": 86.0,
@@ -12965,12 +14712,12 @@
    "ts": "2026-11-24T11:50:44.863076+00:00"
   },
   "edinburgh|zbor|BUH": {
-   "pret": 90.0,
-   "ts": "2026-11-24T11:50:44.863114+00:00"
+   "pret": 88.0,
+   "ts": "2026-11-25T15:29:08.996093+00:00"
   },
   "palermo|zbor|BUH": {
-   "pret": 91.0,
-   "ts": "2026-11-24T11:50:44.863162+00:00"
+   "pret": 82.0,
+   "ts": "2026-11-25T15:29:08.996085+00:00"
   },
   "malaga|zbor|BUH": {
    "pret": 67.0,
@@ -13025,8 +14772,8 @@
    "ts": "2026-11-25T05:04:19.527729+00:00"
   },
   "nurnberg|zbor|BUH": {
-   "pret": 107.0,
-   "ts": "2026-11-24T11:50:44.863700+00:00"
+   "pret": 72.0,
+   "ts": "2026-11-25T15:29:08.996073+00:00"
   },
   "barcelona|zbor|BUH": {
    "pret": 73.0,
@@ -13113,8 +14860,8 @@
    "ts": "2026-11-24T11:50:44.864526+00:00"
   },
   "frankfurt hahn|zbor|BUH": {
-   "pret": 131.0,
-   "ts": "2026-11-24T11:50:44.864565+00:00"
+   "pret": 64.0,
+   "ts": "2026-11-25T15:29:08.996048+00:00"
   },
   "lyon|zbor|BUH": {
    "pret": 62.0,
@@ -13141,8 +14888,8 @@
    "ts": "2026-11-24T11:50:44.864792+00:00"
   },
   "oran|zbor|BUH": {
-   "pret": 153.0,
-   "ts": "2026-11-24T11:50:44.864828+00:00"
+   "pret": 146.0,
+   "ts": "2026-11-25T15:29:08.996123+00:00"
   },
   "tunis|zbor|BUH": {
    "pret": 161.0,
@@ -13157,12 +14904,12 @@
    "ts": "2026-11-24T11:50:44.864934+00:00"
   },
   "cairo|zbor|BUH": {
-   "pret": 175.0,
-   "ts": "2026-11-24T11:50:44.864970+00:00"
+   "pret": 151.0,
+   "ts": "2026-11-25T15:29:08.996130+00:00"
   },
   "alexandria|zbor|BUH": {
-   "pret": 144.0,
-   "ts": "2026-11-24T22:43:27.326526+00:00"
+   "pret": 140.0,
+   "ts": "2026-11-25T15:29:08.996117+00:00"
   },
   "biskek|zbor|BUH": {
    "pret": 194.0,
@@ -13189,8 +14936,8 @@
    "ts": "2026-11-24T11:50:44.865295+00:00"
   },
   "sharjah|zbor|BUH": {
-   "pret": 302.0,
-   "ts": "2026-11-24T11:50:44.865337+00:00"
+   "pret": 226.0,
+   "ts": "2026-11-25T15:29:08.996149+00:00"
   },
   "almaty|zbor|BUH": {
    "pret": 307.0,
@@ -13205,8 +14952,8 @@
    "ts": "2026-11-24T22:43:27.326598+00:00"
   },
   "jeddah|zbor|BUH": {
-   "pret": 314.0,
-   "ts": "2026-11-24T11:50:44.865484+00:00"
+   "pret": 305.0,
+   "ts": "2026-11-25T15:29:08.996162+00:00"
   },
   "muscat|zbor|BUH": {
    "pret": 246.0,
@@ -13237,8 +14984,8 @@
    "ts": "2026-11-24T11:50:44.865741+00:00"
   },
   "calgary|zbor|BUH": {
-   "pret": 465.0,
-   "ts": "2026-11-24T11:50:44.865777+00:00"
+   "pret": 451.0,
+   "ts": "2026-11-25T15:29:08.996172+00:00"
   },
   "taipei|zbor|BUH": {
    "pret": 466.0,
@@ -13265,8 +15012,8 @@
    "ts": "2026-11-24T11:50:44.865988+00:00"
   },
   "new delhi|zbor|BUH": {
-   "pret": 527.0,
-   "ts": "2026-11-24T11:50:44.866023+00:00"
+   "pret": 474.0,
+   "ts": "2026-11-25T15:29:08.996178+00:00"
   },
   "vancouver|zbor|BUH": {
    "pret": 532.0,
@@ -13297,16 +15044,16 @@
    "ts": "2026-11-24T11:50:44.866289+00:00"
   },
   "toronto|zbor|BUH": {
-   "pret": 572.0,
-   "ts": "2026-11-24T11:50:44.866323+00:00"
+   "pret": 551.0,
+   "ts": "2026-11-25T15:29:08.996197+00:00"
   },
   "seul|zbor|BUH": {
-   "pret": 574.0,
-   "ts": "2026-11-24T11:50:44.866360+00:00"
+   "pret": 511.0,
+   "ts": "2026-11-25T15:29:08.996184+00:00"
   },
   "bali|zbor|BUH": {
-   "pret": 589.0,
-   "ts": "2026-11-24T11:50:44.866394+00:00"
+   "pret": 581.0,
+   "ts": "2026-11-25T15:29:08.996205+00:00"
   },
   "zanzibar|zbor|BUH": {
    "pret": 572.0,
@@ -13509,8 +15256,8 @@
    "ts": "2026-11-24T11:50:45.501594+00:00"
   },
   "vilnius|zbor|CND": {
-   "pret": 370.0,
-   "ts": "2026-11-24T11:50:45.501628+00:00"
+   "pret": 293.0,
+   "ts": "2026-11-25T15:29:08.996154+00:00"
   },
   "eindhoven|zbor|CND": {
    "pret": 376.0,
@@ -13525,8 +15272,8 @@
    "ts": "2026-11-24T11:50:45.501741+00:00"
   },
   "dubai|zbor|CND": {
-   "pret": 438.0,
-   "ts": "2026-11-24T11:50:45.501781+00:00"
+   "pret": 319.0,
+   "ts": "2026-11-25T15:29:08.996167+00:00"
   },
   "doha|zbor|CND": {
    "pret": 464.0,
@@ -13691,6 +15438,42 @@
   "gran canaria|zbor|BUH": {
    "pret": 124.0,
    "ts": "2026-11-25T05:04:19.527786+00:00"
+  },
+  "bune|zbor|BUH": {
+   "pret": 50.0,
+   "ts": "2026-11-25T15:29:08.996014+00:00"
+  },
+  "early bird|zbor|BUH": {
+   "pret": 53.0,
+   "ts": "2026-11-25T15:29:08.996024+00:00"
+  },
+  "zurich|zbor|BUH": {
+   "pret": 127.0,
+   "ts": "2026-11-25T15:29:08.996110+00:00"
+  },
+  "amsterdam|zbor|BUH": {
+   "pret": 189.0,
+   "ts": "2026-11-25T15:29:08.996140+00:00"
+  },
+  "mauritius|pachet|BUH": {
+   "pret": 695.0,
+   "ts": "2026-11-25T15:29:08.996213+00:00"
+  },
+  "boracay|pachet|BUH": {
+   "pret": 813.0,
+   "ts": "2026-11-25T15:29:08.996216+00:00"
+  },
+  "maldive|pachet|BUH": {
+   "pret": 828.0,
+   "ts": "2026-11-25T15:29:08.996220+00:00"
+  },
+  "kuala lumpur|zbor|CND": {
+   "pret": 1051.0,
+   "ts": "2026-11-25T15:29:08.996223+00:00"
+  },
+  "australia|zbor|BUH": {
+   "pret": 1146.0,
+   "ts": "2026-11-25T15:29:08.996231+00:00"
   }
  },
  "surse_vazute": [
